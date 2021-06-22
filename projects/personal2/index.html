@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:100,300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Sass page</title>
+    <script src="https://kit.fontawesome.com/1a2377e0fd.js"></script>
+</head>
+<body>
+
+<div id="preload">
+    <i class="fa fa-spinner fa-spin"></i>
+</div>
+
+<div class="wrapper">
+
+    <div class="menu-wrp">  
+        <h2>Personal Page</h2>
+        <ul class="main-menu">
+            <li><a href="#about" class="active">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </div>
+
+    <div class="content-wrp">
+
+        <section id="about" class="page visible">
+            <div class="container">
+                <h1 class="section-head">About</h1>
+                <div class="row">
+                    <div class="photo">
+                        <img src="img/portrait.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus architecto adipisci deserunt iure mollitia cumque, consequatur ad beatae nobis inventore iste vitae eum nihil modi dicta quisquam quidem tempore!</p>
+                        <p>Eum eveniet similique dolorem libero ut itaque expedita pariatur vitae assumenda est esse eaque, magnam ratione aut cupiditate reiciendis doloremque soluta rem ea tempore exercitationem molestiae? Aperiam dolores quasi porro.</p>
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                        <p>Adipisci quod obcaecati mollitia voluptatem dignissimos sequi, officiis quibusdam eaque exercitationem numquam ullam error laudantium labore eos incidunt dolore corrupti alias sunt magni enim, tempora voluptatibus assumenda facere. Vero, magnam.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="page">
+            <div class="container">
+                <h1 class="section-head">Services</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A laboriosam minima tenetur? Eos ullam voluptatibus labore maxime adipisci soluta mollitia ut quam magnam, voluptas earum animi officia architecto, modi, sit officiis? Assumenda nemo itaque labore, corporis, rem at nobis, vero consectetur ut fuga id repellat quis a ullam beatae rerum velit quia vel. Nobis maiores nisi, voluptate dolor asperiores explicabo.</p>
+
+                <ul class="services-list">
+                    <li>
+                        <img src="img/design.png" alt="Web Design">
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, atque.</p>
+                    </li>
+                    <li>
+                        <img src="img/html.png" alt="HTML Coding">
+                        <h3>HTML/CSS Coding</h3>
+                        <p>Alias dolor quod culpa vitae recusandae incidunt blanditiis nesciunt deleniti?</p>
+                    </li>
+                    <li>
+                        <img src="img/template.png" alt="Creating template">
+                        <h3>Creating templates</h3>
+                        <p>Atque nesciunt molestias, dolorum fugit tenetur assumenda facilis impedit labore.</p>
+                    </li>
+                    <li>
+                        <img src="img/cms.png" alt="Configure CMS">
+                        <h3>Configure CMS</h3>
+                        <p>Illo minima neque doloremque numquam odit repudiandae, veritatis earum accusamus.</p>
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+         <section id="portfolio" class="page">
+            <div class="container">
+                <h1 class="section-head">Portfolio</h1>
+
+                <h2>Latest projects</h2>
+
+                <div class="portfolio">
+
+                    <ul id="filters">
+                        <li><a href="#" class="is-checked" data-filter="*">All</a></li>
+                        <li><a href="#" data-filter=".design">Design</a></li>
+                        <li><a href="#" data-filter=".htmlcss">Html/css</a></li>
+                        <li><a href="#" data-filter=".templates">Templates</a></li>
+                        <li><a href="#" data-filter=".cms">CMS</a></li>
+                    </ul>
+
+                    <div class="portfolio-list">
+                        <div class="portfolio-item design htmlcss">
+                            <div class="image"><img src="img/portfolio/s1.png" alt=""></div>
+                            <div class="text">
+                                <h3>somenews.com</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item design htmlcss">
+                            <div class="image"><img src="img/portfolio/s2.png" alt=""></div>
+                            <div class="text">
+                                <h3>someprojects.org</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item htmlcss">
+                            <div class="image"><img src="img/portfolio/s3.png" alt=""></div>
+                            <div class="text">
+                                <h3>somefood.com</h3>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item design htmlcss cms templates">
+                            <div class="image"><img src="img/portfolio/s4.png" alt=""></div>
+                            <div class="text">
+                                <h3>justsummit.org</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item templates">
+                            <div class="image"><img src="img/portfolio/s5.png" alt=""></div>
+                            <div class="text">
+                                <h3>lawsite.net</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item htmlcss templates">
+                            <div class="image"><img src="img/portfolio/s6.png" alt=""></div>
+                            <div class="text">
+                                <h3>onemorefood.net</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item cms">
+                            <div class="image"><img src="img/portfolio/s7.png" alt=""></div>
+                            <div class="text">
+                                <h3>peoples.net</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item design cms">
+                            <div class="image"><img src="img/portfolio/s8.png" alt=""></div>
+                            <div class="text">
+                                <h3>iam-designer.me</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quam veniam tempore.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h2>What people say</h2>
+
+                    <div class="reviews">
+                        
+                        <div class="reviews-list">
+
+                            <div class="reviews-item">
+                                <p class="review-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci veniam voluptas perferendis.</p>
+                                <div class="review-info">
+                                    <img src="img/portrait-sm.jpg" alt="">
+                                    <p class="client-name">John Doe</p>
+                                </div>
+                            </div>
+
+                            <div class="reviews-item">
+                                <p class="review-text">Harum praesentium vero a adipisci quisquam delectus odio veritatis, in saepe amet.</p>
+                                <div class="review-info">
+                                    <img src="img/portrait-sm.jpg" alt="">
+                                    <p class="client-name">John Doe</p>
+                                </div>
+                            </div>
+
+                            <div class="reviews-item">
+                                <p class="review-text">Adipisci corrupti at a eius soluta sapiente! Corporis tempore asperiores magni sunt.</p>
+                                <div class="review-info">
+                                    <img src="img/portrait-sm.jpg" alt="">
+                                    <p class="client-name">John Doe</p>
+                                </div>
+                            </div>
+
+                            <div class="reviews-item">
+                                <p class="review-text">Quos vero quasi, voluptatum repellat perferendis libero esse nobis saepe doloremque eos!</p>
+                                <div class="review-info">
+                                    <img src="img/portrait-sm.jpg" alt="">
+                                    <p class="client-name">John Doe</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+             </div>
+        </section>
+
+        <section id="blog" class="page">
+            <div class="container">
+                <h1 class="section-head">Blog</h1>
+                <div class="blog-list">
+                    <div class="blog-item">
+                        <div class="blog-image"><img src="https://picsum.photos/600/220/?random=1" alt=""></div>
+                        <div class="meta">
+                            <h3 class="blog-title">Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda error explicabo!</p>
+                            <div class="dt">12.10.2019</div>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-image"><img src="https://picsum.photos/600/220/?random=2" alt=""></div>
+                        <div class="meta">
+                            <h3 class="blog-title">Hic, ipsam asperiores!</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda error explicabo!</p>
+                            <div class="dt">12.10.2019</div>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-image"><img src="https://picsum.photos/600/220/?random=3" alt=""></div>
+                        <div class="meta">
+                            <h3 class="blog-title">Fugit, officiis eos?</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda error explicabo!</p>
+                            <div class="dt">12.10.2019</div>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-image"><img src="https://picsum.photos/600/220/?random=4" alt=""></div>
+                        <div class="meta">
+                            <h3 class="blog-title">Fugit, nobis beatae.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus assumenda error explicabo!</p>
+                            <div class="dt">12.10.2019</div>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-image"><img src="https://picsum.photos/600/220/?random=5" alt=""></div>
+                        <div class="meta">
+                            <h3 class="blog-title">Sapiente, iusto autem?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, impedit eos! Expedita!</p>
+                            <div class="dt">12.10.2019</div>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-image"><img src="https://picsum.photos/600/220/?random=6" alt=""></div>
+                        <div class="meta">
+                            <h3 class="blog-title">Impedit, doloremque ipsa.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, impedit eos! Expedita!</p>
+                            <div class="dt">12.10.2019</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="page">
+            <div class="container">
+                <h1 class="section-head">Contacts</h1>
+                <div class="contacts-row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="adress">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Kazakhstan, Almaty city</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fas fa-phone"></i>
+                        <p>+7 (767) 5656342</p>
+                    </div>
+                    <div class="email">
+                        <i class="fas fa-envelope-square"></i>
+                        <p>myemail@gmail.com</p>
+                    </div>
+                    <div class="skype">
+                        <i class="fab fa-skype"></i>
+                        <p>webdevman</p>
+                    </div>
+                </div>
+                <div class="map-row wow fadeIn" data-wow-duration="2s">
+                    <div class="gmap">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1030lbr4WFdnf6pCUqj3Bd2On5d7k5iiv" height="550"></iframe>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form" action="/">
+                            <h3>Send a message:</h3>
+                            <input type="text" name="name" placeholder="name">
+                            <input type="text" name="phone" placeholder="phone">
+                            <input type="text" name="email" placeholder="e-mail">
+                            <textarea name="messge" placeholder="message"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
